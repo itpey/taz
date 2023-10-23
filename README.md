@@ -128,7 +128,7 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 	
-	//Run
+	// Run
 	result, err := taz.RunLoadTest(ctx, config)
 
 	// Check for errors
