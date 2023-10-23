@@ -16,7 +16,6 @@ package taz
 
 import (
 	"context"
-	"fmt"
 	"testing"
 	"time"
 )
@@ -46,7 +45,7 @@ func TestRunLoadTest(t *testing.T) {
 		t.Errorf("Error running load test: %v", err)
 		return
 	}
-	fmt.Println(result.ResponseTimes)
+	
 	// Add assertions for the test results.
 	if len(result.ResponseTimes) != 10 {
 		t.Errorf("Expected 10 response times, got %d", len(result.ResponseTimes))
