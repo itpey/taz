@@ -9,7 +9,7 @@
     <img src="https://pkg.go.dev/badge/github.com/itpey/taz.svg" alt="Go Reference">
   </a>
   <a href="https://github.com/itpey/taz/blob/main/LICENSE">
-    <img "https://img.shields.io/github/license/itpey/taz" alt="license">
+    <img src="https://img.shields.io/github/license/itpey/taz" alt="license">
   </a>
 </p>
 
